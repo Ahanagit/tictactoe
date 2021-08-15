@@ -1,0 +1,79 @@
+
+body{
+  text-align: center;
+  font-family: "Indie Flower";
+  background-color: #C3BA85;
+}
+
+
+.title{
+  color:#0F044C;
+  text-shadow: 2px 2px #fff;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.player{
+  margin-top: 0;
+  font-size: 2rem;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.main{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  max-width: 200px;
+  margin:10px auto;
+}
+.box{
+  border: 1px solid black;
+  background-color: grey;
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px;
+  height: 50px;
+  width:50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 0;
+}
+
+.control{
+  margin-top: 30px;
+}
+
+#again,#complete{
+  width:15%;
+  border: 1px solid green;
+  background-color: #E5FBB8;
+  color:red;
+  padding:20px;
+  border-radius: 70px;
+  font-size: 1.5rem;
+  margin:20px;
+}
+@media (max-width:1028px) {
+  #again,#complete{
+    width:20%;
+    border-radius: 30px;
+  }
+}
+#again:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+#complete:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+.announcer{
+  height:100px;
+  width: 100px;
+  margin:20px auto;;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: red;
+  text-shadow: 2px 2px #fff;
+  text-align: center;
+}
